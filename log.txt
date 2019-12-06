@@ -1,243 +1,242 @@
 ----------- Simulacion del funcionamiento de un aeropuerto ----------
-01-dic-2019 01:49:39 PM:Apertura del aeropuerto
-01-dic-2019 01:49:40 PM:Pasajero30 deja la maleta Pasajero30-M1 en la cinta.
-01-dic-2019 01:49:40 PM:Empleado2 coge la maleta Pasajero30-M1 y la lleva al avión.
-01-dic-2019 01:49:40 PM:Pasajero33 deja la maleta Pasajero33-M1 en la cinta.
-01-dic-2019 01:49:40 PM:Empleado1 coge la maleta Pasajero33-M1 y la lleva al avión.
-01-dic-2019 01:49:40 PM:Pasajero4 deja la maleta Pasajero4-M1 en la cinta.
-01-dic-2019 01:49:40 PM:Pasajero34 deja la maleta Pasajero34-M1 en la cinta.
-01-dic-2019 01:49:40 PM:Pasajero19 deja la maleta Pasajero19-M1 en la cinta.
-01-dic-2019 01:49:40 PM:Pasajero26 deja la maleta Pasajero26-M1 en la cinta.
-01-dic-2019 01:49:40 PM:Pasajero15 deja la maleta Pasajero15-M1 en la cinta.
-01-dic-2019 01:49:40 PM:Pasajero25 deja la maleta Pasajero25-M1 en la cinta.
-01-dic-2019 01:49:40 PM:Pasajero27 deja la maleta Pasajero27-M1 en la cinta.
-01-dic-2019 01:49:40 PM:Pasajero5 deja la maleta Pasajero5-M1 en la cinta.
-01-dic-2019 01:49:41 PM:Empleado1 deja la maleta Pasajero33-M1 en el avión.
-01-dic-2019 01:49:41 PM:Empleado2 deja la maleta Pasajero30-M1 en el avión.
-01-dic-2019 01:49:41 PM:Empleado2 coge la maleta Pasajero4-M1 y la lleva al avión.
-01-dic-2019 01:49:41 PM:Pasajero40 deja la maleta Pasajero40-M1 en la cinta.
-01-dic-2019 01:49:42 PM:Empleado1 coge la maleta Pasajero34-M1 y la lleva al avión.
-01-dic-2019 01:49:42 PM:Pasajero38 deja la maleta Pasajero38-M1 en la cinta.
-01-dic-2019 01:49:42 PM:Empleado2 deja la maleta Pasajero4-M1 en el avión.
-01-dic-2019 01:49:43 PM:Empleado1 deja la maleta Pasajero34-M1 en el avión.
-01-dic-2019 01:49:43 PM:Empleado2 coge la maleta Pasajero19-M1 y la lleva al avión.
-01-dic-2019 01:49:43 PM:Pasajero35 deja la maleta Pasajero35-M1 en la cinta.
-01-dic-2019 01:49:44 PM:Empleado2 deja la maleta Pasajero19-M1 en el avión.
-01-dic-2019 01:49:44 PM:Empleado1 coge la maleta Pasajero26-M1 y la lleva al avión.
-01-dic-2019 01:49:44 PM:Pasajero16 deja la maleta Pasajero16-M1 en la cinta.
-01-dic-2019 01:49:44 PM:Empleado2 coge la maleta Pasajero15-M1 y la lleva al avión.
-01-dic-2019 01:49:44 PM:Pasajero9 deja la maleta Pasajero9-M1 en la cinta.
-01-dic-2019 01:49:44 PM:Empleado1 deja la maleta Pasajero26-M1 en el avión.
-01-dic-2019 01:49:45 PM:Empleado2 deja la maleta Pasajero15-M1 en el avión.
-01-dic-2019 01:49:45 PM:Empleado1 coge la maleta Pasajero25-M1 y la lleva al avión.
-01-dic-2019 01:49:45 PM:Pasajero21 deja la maleta Pasajero21-M1 en la cinta.
-01-dic-2019 01:49:46 PM:Empleado2 coge la maleta Pasajero27-M1 y la lleva al avión.
-01-dic-2019 01:49:46 PM:Pasajero37 deja la maleta Pasajero37-M1 en la cinta.
-01-dic-2019 01:49:46 PM:Empleado1 deja la maleta Pasajero25-M1 en el avión.
-01-dic-2019 01:49:46 PM:Empleado2 deja la maleta Pasajero27-M1 en el avión.
-01-dic-2019 01:49:47 PM:Empleado2 coge la maleta Pasajero5-M1 y la lleva al avión.
-01-dic-2019 01:49:47 PM:Pasajero31 deja la maleta Pasajero31-M1 en la cinta.
-01-dic-2019 01:49:47 PM:Empleado1 coge la maleta Pasajero40-M1 y la lleva al avión.
-01-dic-2019 01:49:47 PM:Pasajero2 deja la maleta Pasajero2-M1 en la cinta.
-01-dic-2019 01:49:47 PM:Empleado2 deja la maleta Pasajero5-M1 en el avión.
-01-dic-2019 01:49:48 PM:Empleado1 deja la maleta Pasajero40-M1 en el avión.
-01-dic-2019 01:49:48 PM:Empleado2 coge la maleta Pasajero38-M1 y la lleva al avión.
-01-dic-2019 01:49:48 PM:Pasajero20 deja la maleta Pasajero20-M1 en la cinta.
-01-dic-2019 01:49:48 PM:Empleado1 coge la maleta Pasajero35-M1 y la lleva al avión.
-01-dic-2019 01:49:48 PM:Pasajero14 deja la maleta Pasajero14-M1 en la cinta.
-01-dic-2019 01:49:49 PM:Empleado2 deja la maleta Pasajero38-M1 en el avión.
-01-dic-2019 01:49:49 PM:Empleado1 deja la maleta Pasajero35-M1 en el avión.
-01-dic-2019 01:49:49 PM:Empleado2 coge la maleta Pasajero16-M1 y la lleva al avión.
-01-dic-2019 01:49:49 PM:Pasajero23 deja la maleta Pasajero23-M1 en la cinta.
-01-dic-2019 01:49:50 PM:Empleado1 coge la maleta Pasajero9-M1 y la lleva al avión.
-01-dic-2019 01:49:50 PM:Pasajero17 deja la maleta Pasajero17-M1 en la cinta.
-01-dic-2019 01:49:50 PM:Empleado2 deja la maleta Pasajero16-M1 en el avión.
-01-dic-2019 01:49:51 PM:Empleado1 deja la maleta Pasajero9-M1 en el avión.
-01-dic-2019 01:49:51 PM:Empleado2 coge la maleta Pasajero21-M1 y la lleva al avión.
-01-dic-2019 01:49:51 PM:Pasajero32 deja la maleta Pasajero32-M1 en la cinta.
-01-dic-2019 01:49:51 PM:Empleado1 coge la maleta Pasajero37-M1 y la lleva al avión.
-01-dic-2019 01:49:51 PM:Pasajero28 deja la maleta Pasajero28-M1 en la cinta.
-01-dic-2019 01:49:52 PM:Empleado2 deja la maleta Pasajero21-M1 en el avión.
-01-dic-2019 01:49:52 PM:Empleado1 deja la maleta Pasajero37-M1 en el avión.
-01-dic-2019 01:49:52 PM:Empleado2 coge la maleta Pasajero31-M1 y la lleva al avión.
-01-dic-2019 01:49:52 PM:Pasajero6 deja la maleta Pasajero6-M1 en la cinta.
-01-dic-2019 01:49:53 PM:Empleado1 coge la maleta Pasajero2-M1 y la lleva al avión.
-01-dic-2019 01:49:53 PM:Pasajero8 deja la maleta Pasajero8-M1 en la cinta.
-01-dic-2019 01:49:53 PM:Empleado2 deja la maleta Pasajero31-M1 en el avión.
-01-dic-2019 01:49:54 PM:Empleado1 deja la maleta Pasajero2-M1 en el avión.
-01-dic-2019 01:49:54 PM:Empleado2 coge la maleta Pasajero20-M1 y la lleva al avión.
-01-dic-2019 01:49:54 PM:Pasajero18 deja la maleta Pasajero18-M1 en la cinta.
-01-dic-2019 01:49:54 PM:Empleado1 coge la maleta Pasajero14-M1 y la lleva al avión.
-01-dic-2019 01:49:54 PM:Pasajero22 deja la maleta Pasajero22-M1 en la cinta.
-01-dic-2019 01:49:55 PM:Empleado2 deja la maleta Pasajero20-M1 en el avión.
-01-dic-2019 01:49:55 PM:Empleado1 deja la maleta Pasajero14-M1 en el avión.
-01-dic-2019 01:49:55 PM:Empleado2 coge la maleta Pasajero23-M1 y la lleva al avión.
-01-dic-2019 01:49:55 PM:Pasajero13 deja la maleta Pasajero13-M1 en la cinta.
-01-dic-2019 01:49:56 PM:Empleado2 deja la maleta Pasajero23-M1 en el avión.
-01-dic-2019 01:49:56 PM:Empleado1 coge la maleta Pasajero17-M1 y la lleva al avión.
-01-dic-2019 01:49:56 PM:Pasajero1 deja la maleta Pasajero1-M1 en la cinta.
-01-dic-2019 01:49:57 PM:Empleado2 coge la maleta Pasajero32-M1 y la lleva al avión.
-01-dic-2019 01:49:57 PM:Pasajero39 deja la maleta Pasajero39-M1 en la cinta.
-01-dic-2019 01:49:57 PM:Empleado1 deja la maleta Pasajero17-M1 en el avión.
-01-dic-2019 01:49:57 PM:Empleado2 deja la maleta Pasajero32-M1 en el avión.
-01-dic-2019 01:49:58 PM:Empleado1 coge la maleta Pasajero28-M1 y la lleva al avión.
-01-dic-2019 01:49:58 PM:Pasajero7 deja la maleta Pasajero7-M1 en la cinta.
-01-dic-2019 01:49:58 PM:Empleado2 coge la maleta Pasajero6-M1 y la lleva al avión.
-01-dic-2019 01:49:58 PM:Pasajero24 deja la maleta Pasajero24-M1 en la cinta.
-01-dic-2019 01:49:59 PM:Empleado2 deja la maleta Pasajero6-M1 en el avión.
-01-dic-2019 01:49:59 PM:Empleado1 deja la maleta Pasajero28-M1 en el avión.
-01-dic-2019 01:50:00 PM:Empleado2 coge la maleta Pasajero8-M1 y la lleva al avión.
-01-dic-2019 01:50:00 PM:Pasajero12 deja la maleta Pasajero12-M1 en la cinta.
-01-dic-2019 01:50:00 PM:Empleado1 coge la maleta Pasajero18-M1 y la lleva al avión.
-01-dic-2019 01:50:00 PM:Pasajero29 deja la maleta Pasajero29-M1 en la cinta.
-01-dic-2019 01:50:01 PM:Empleado2 deja la maleta Pasajero8-M1 en el avión.
-01-dic-2019 01:50:01 PM:Empleado2 coge la maleta Pasajero22-M1 y la lleva al avión.
-01-dic-2019 01:50:01 PM:Pasajero10 deja la maleta Pasajero10-M1 en la cinta.
-01-dic-2019 01:50:01 PM:Empleado1 deja la maleta Pasajero18-M1 en el avión.
-01-dic-2019 01:50:01 PM:Empleado2 deja la maleta Pasajero22-M1 en el avión.
-01-dic-2019 01:50:02 PM:Empleado1 coge la maleta Pasajero13-M1 y la lleva al avión.
-01-dic-2019 01:50:02 PM:Pasajero3 deja la maleta Pasajero3-M1 en la cinta.
-01-dic-2019 01:50:02 PM:Empleado2 coge la maleta Pasajero1-M1 y la lleva al avión.
-01-dic-2019 01:50:02 PM:Pasajero11 deja la maleta Pasajero11-M1 en la cinta.
-01-dic-2019 01:50:02 PM:Empleado1 deja la maleta Pasajero13-M1 en el avión.
-01-dic-2019 01:50:03 PM:Empleado2 deja la maleta Pasajero1-M1 en el avión.
-01-dic-2019 01:50:03 PM:Empleado1 coge la maleta Pasajero39-M1 y la lleva al avión.
-01-dic-2019 01:50:03 PM:Pasajero36 deja la maleta Pasajero36-M1 en la cinta.
-01-dic-2019 01:50:04 PM:Empleado2 coge la maleta Pasajero7-M1 y la lleva al avión.
-01-dic-2019 01:50:04 PM:Pasajero30 deja la maleta Pasajero30-M2 en la cinta.
-01-dic-2019 01:50:04 PM:Empleado1 deja la maleta Pasajero39-M1 en el avión.
-01-dic-2019 01:50:04 PM:Empleado2 deja la maleta Pasajero7-M1 en el avión.
-01-dic-2019 01:50:05 PM:Empleado2 coge la maleta Pasajero24-M1 y la lleva al avión.
-01-dic-2019 01:50:05 PM:Pasajero27 deja la maleta Pasajero27-M2 en la cinta.
-01-dic-2019 01:50:05 PM:Empleado1 coge la maleta Pasajero12-M1 y la lleva al avión.
-01-dic-2019 01:50:05 PM:Pasajero4 deja la maleta Pasajero4-M2 en la cinta.
-01-dic-2019 01:50:06 PM:Empleado2 deja la maleta Pasajero24-M1 en el avión.
-01-dic-2019 01:50:06 PM:Empleado1 deja la maleta Pasajero12-M1 en el avión.
-01-dic-2019 01:50:06 PM:Empleado2 coge la maleta Pasajero29-M1 y la lleva al avión.
-01-dic-2019 01:50:06 PM:Pasajero25 deja la maleta Pasajero25-M2 en la cinta.
-01-dic-2019 01:50:06 PM:Empleado1 coge la maleta Pasajero10-M1 y la lleva al avión.
-01-dic-2019 01:50:06 PM:Pasajero34 deja la maleta Pasajero34-M2 en la cinta.
-01-dic-2019 01:50:07 PM:Empleado1 deja la maleta Pasajero10-M1 en el avión.
-01-dic-2019 01:50:07 PM:Empleado2 deja la maleta Pasajero29-M1 en el avión.
-01-dic-2019 01:50:08 PM:Empleado1 coge la maleta Pasajero3-M1 y la lleva al avión.
-01-dic-2019 01:50:08 PM:Pasajero19 deja la maleta Pasajero19-M2 en la cinta.
-01-dic-2019 01:50:08 PM:Empleado2 coge la maleta Pasajero11-M1 y la lleva al avión.
-01-dic-2019 01:50:08 PM:Pasajero26 deja la maleta Pasajero26-M2 en la cinta.
-01-dic-2019 01:50:09 PM:Empleado1 deja la maleta Pasajero3-M1 en el avión.
-01-dic-2019 01:50:09 PM:Empleado2 deja la maleta Pasajero11-M1 en el avión.
-01-dic-2019 01:50:09 PM:Empleado1 coge la maleta Pasajero36-M1 y la lleva al avión.
-01-dic-2019 01:50:09 PM:Pasajero15 deja la maleta Pasajero15-M2 en la cinta.
-01-dic-2019 01:50:10 PM:Empleado2 coge la maleta Pasajero30-M2 y la lleva al avión.
-01-dic-2019 01:50:10 PM:Pasajero5 deja la maleta Pasajero5-M2 en la cinta.
-01-dic-2019 01:50:10 PM:Empleado2 deja la maleta Pasajero30-M2 en el avión.
-01-dic-2019 01:50:10 PM:Empleado1 deja la maleta Pasajero36-M1 en el avión.
-01-dic-2019 01:50:11 PM:Empleado1 coge la maleta Pasajero27-M2 y la lleva al avión.
-01-dic-2019 01:50:11 PM:Pasajero33 deja la maleta Pasajero33-M2 en la cinta.
-01-dic-2019 01:50:11 PM:Empleado2 coge la maleta Pasajero4-M2 y la lleva al avión.
-01-dic-2019 01:50:11 PM:Pasajero40 deja la maleta Pasajero40-M2 en la cinta.
-01-dic-2019 01:50:12 PM:Empleado2 deja la maleta Pasajero4-M2 en el avión.
-01-dic-2019 01:50:12 PM:Empleado1 deja la maleta Pasajero27-M2 en el avión.
-01-dic-2019 01:50:13 PM:Empleado1 coge la maleta Pasajero25-M2 y la lleva al avión.
-01-dic-2019 01:50:13 PM:Pasajero38 deja la maleta Pasajero38-M2 en la cinta.
-01-dic-2019 01:50:13 PM:Empleado2 coge la maleta Pasajero34-M2 y la lleva al avión.
-01-dic-2019 01:50:13 PM:Pasajero35 deja la maleta Pasajero35-M2 en la cinta.
-01-dic-2019 01:50:13 PM:Empleado1 deja la maleta Pasajero25-M2 en el avión.
-01-dic-2019 01:50:14 PM:Empleado1 coge la maleta Pasajero19-M2 y la lleva al avión.
-01-dic-2019 01:50:14 PM:Pasajero16 deja la maleta Pasajero16-M2 en la cinta.
-01-dic-2019 01:50:14 PM:Empleado2 deja la maleta Pasajero34-M2 en el avión.
-01-dic-2019 01:50:15 PM:Empleado2 coge la maleta Pasajero26-M2 y la lleva al avión.
-01-dic-2019 01:50:15 PM:Pasajero9 deja la maleta Pasajero9-M2 en la cinta.
-01-dic-2019 01:50:15 PM:Empleado1 deja la maleta Pasajero19-M2 en el avión.
-01-dic-2019 01:50:15 PM:Empleado1 coge la maleta Pasajero15-M2 y la lleva al avión.
-01-dic-2019 01:50:15 PM:Pasajero21 deja la maleta Pasajero21-M2 en la cinta.
-01-dic-2019 01:50:16 PM:Empleado2 deja la maleta Pasajero26-M2 en el avión.
-01-dic-2019 01:50:16 PM:Empleado2 coge la maleta Pasajero5-M2 y la lleva al avión.
-01-dic-2019 01:50:16 PM:Pasajero37 deja la maleta Pasajero37-M2 en la cinta.
-01-dic-2019 01:50:16 PM:Empleado1 deja la maleta Pasajero15-M2 en el avión.
-01-dic-2019 01:50:17 PM:Empleado2 deja la maleta Pasajero5-M2 en el avión.
-01-dic-2019 01:50:17 PM:Empleado1 coge la maleta Pasajero33-M2 y la lleva al avión.
-01-dic-2019 01:50:17 PM:Pasajero2 deja la maleta Pasajero2-M2 en la cinta.
-01-dic-2019 01:50:17 PM:Empleado2 coge la maleta Pasajero40-M2 y la lleva al avión.
-01-dic-2019 01:50:17 PM:Pasajero31 deja la maleta Pasajero31-M2 en la cinta.
-01-dic-2019 01:50:18 PM:Empleado1 deja la maleta Pasajero33-M2 en el avión.
-01-dic-2019 01:50:18 PM:Empleado1 coge la maleta Pasajero38-M2 y la lleva al avión.
-01-dic-2019 01:50:18 PM:Pasajero14 deja la maleta Pasajero14-M2 en la cinta.
-01-dic-2019 01:50:18 PM:Empleado2 deja la maleta Pasajero40-M2 en el avión.
-01-dic-2019 01:50:19 PM:Empleado2 coge la maleta Pasajero35-M2 y la lleva al avión.
-01-dic-2019 01:50:19 PM:Pasajero20 deja la maleta Pasajero20-M2 en la cinta.
-01-dic-2019 01:50:19 PM:Empleado1 deja la maleta Pasajero38-M2 en el avión.
-01-dic-2019 01:50:20 PM:Empleado2 deja la maleta Pasajero35-M2 en el avión.
-01-dic-2019 01:50:20 PM:Empleado1 coge la maleta Pasajero16-M2 y la lleva al avión.
-01-dic-2019 01:50:20 PM:Pasajero23 deja la maleta Pasajero23-M2 en la cinta.
-01-dic-2019 01:50:20 PM:Empleado2 coge la maleta Pasajero9-M2 y la lleva al avión.
-01-dic-2019 01:50:20 PM:Pasajero17 deja la maleta Pasajero17-M2 en la cinta.
-01-dic-2019 01:50:21 PM:Empleado1 deja la maleta Pasajero16-M2 en el avión.
-01-dic-2019 01:50:21 PM:Empleado2 deja la maleta Pasajero9-M2 en el avión.
-01-dic-2019 01:50:22 PM:Empleado1 coge la maleta Pasajero21-M2 y la lleva al avión.
-01-dic-2019 01:50:22 PM:Pasajero32 deja la maleta Pasajero32-M2 en la cinta.
-01-dic-2019 01:50:22 PM:Empleado2 coge la maleta Pasajero37-M2 y la lleva al avión.
-01-dic-2019 01:50:22 PM:Pasajero28 deja la maleta Pasajero28-M2 en la cinta.
-01-dic-2019 01:50:22 PM:Empleado1 deja la maleta Pasajero21-M2 en el avión.
-01-dic-2019 01:50:23 PM:Empleado2 deja la maleta Pasajero37-M2 en el avión.
-01-dic-2019 01:50:23 PM:Empleado1 coge la maleta Pasajero2-M2 y la lleva al avión.
-01-dic-2019 01:50:23 PM:Pasajero6 deja la maleta Pasajero6-M2 en la cinta.
-01-dic-2019 01:50:24 PM:Empleado2 coge la maleta Pasajero31-M2 y la lleva al avión.
-01-dic-2019 01:50:24 PM:Pasajero8 deja la maleta Pasajero8-M2 en la cinta.
-01-dic-2019 01:50:24 PM:Empleado1 deja la maleta Pasajero2-M2 en el avión.
-01-dic-2019 01:50:25 PM:Empleado2 deja la maleta Pasajero31-M2 en el avión.
-01-dic-2019 01:50:25 PM:Empleado1 coge la maleta Pasajero14-M2 y la lleva al avión.
-01-dic-2019 01:50:25 PM:Pasajero22 deja la maleta Pasajero22-M2 en la cinta.
-01-dic-2019 01:50:25 PM:Empleado2 coge la maleta Pasajero20-M2 y la lleva al avión.
-01-dic-2019 01:50:25 PM:Pasajero18 deja la maleta Pasajero18-M2 en la cinta.
-01-dic-2019 01:50:26 PM:Empleado1 deja la maleta Pasajero14-M2 en el avión.
-01-dic-2019 01:50:26 PM:Empleado2 deja la maleta Pasajero20-M2 en el avión.
-01-dic-2019 01:50:26 PM:Empleado1 coge la maleta Pasajero23-M2 y la lleva al avión.
-01-dic-2019 01:50:26 PM:Pasajero13 deja la maleta Pasajero13-M2 en la cinta.
-01-dic-2019 01:50:27 PM:Empleado2 coge la maleta Pasajero17-M2 y la lleva al avión.
-01-dic-2019 01:50:27 PM:Pasajero1 deja la maleta Pasajero1-M2 en la cinta.
-01-dic-2019 01:50:27 PM:Empleado1 deja la maleta Pasajero23-M2 en el avión.
-01-dic-2019 01:50:28 PM:Empleado1 coge la maleta Pasajero32-M2 y la lleva al avión.
-01-dic-2019 01:50:28 PM:Pasajero39 deja la maleta Pasajero39-M2 en la cinta.
-01-dic-2019 01:50:28 PM:Empleado2 deja la maleta Pasajero17-M2 en el avión.
-01-dic-2019 01:50:28 PM:Empleado1 deja la maleta Pasajero32-M2 en el avión.
-01-dic-2019 01:50:28 PM:Empleado2 coge la maleta Pasajero28-M2 y la lleva al avión.
-01-dic-2019 01:50:28 PM:Pasajero7 deja la maleta Pasajero7-M2 en la cinta.
-01-dic-2019 01:50:29 PM:Empleado2 deja la maleta Pasajero28-M2 en el avión.
-01-dic-2019 01:50:29 PM:Empleado1 coge la maleta Pasajero6-M2 y la lleva al avión.
-01-dic-2019 01:50:29 PM:Pasajero24 deja la maleta Pasajero24-M2 en la cinta.
-01-dic-2019 01:50:30 PM:Empleado1 deja la maleta Pasajero6-M2 en el avión.
-01-dic-2019 01:50:30 PM:Empleado2 coge la maleta Pasajero8-M2 y la lleva al avión.
-01-dic-2019 01:50:30 PM:Pasajero12 deja la maleta Pasajero12-M2 en la cinta.
-01-dic-2019 01:50:30 PM:Empleado2 deja la maleta Pasajero8-M2 en el avión.
-01-dic-2019 01:50:30 PM:Empleado1 coge la maleta Pasajero22-M2 y la lleva al avión.
-01-dic-2019 01:50:30 PM:Pasajero29 deja la maleta Pasajero29-M2 en la cinta.
-01-dic-2019 01:50:31 PM:Empleado2 coge la maleta Pasajero18-M2 y la lleva al avión.
-01-dic-2019 01:50:31 PM:Pasajero10 deja la maleta Pasajero10-M2 en la cinta.
-01-dic-2019 01:50:31 PM:Empleado1 deja la maleta Pasajero22-M2 en el avión.
-01-dic-2019 01:50:32 PM:Empleado2 deja la maleta Pasajero18-M2 en el avión.
-01-dic-2019 01:50:32 PM:Empleado1 coge la maleta Pasajero13-M2 y la lleva al avión.
-01-dic-2019 01:50:32 PM:Pasajero3 deja la maleta Pasajero3-M2 en la cinta.
-01-dic-2019 01:50:33 PM:Empleado2 coge la maleta Pasajero1-M2 y la lleva al avión.
-01-dic-2019 01:50:33 PM:Pasajero11 deja la maleta Pasajero11-M2 en la cinta.
-01-dic-2019 01:50:33 PM:Empleado1 deja la maleta Pasajero13-M2 en el avión.
-01-dic-2019 01:50:33 PM:Empleado1 coge la maleta Pasajero39-M2 y la lleva al avión.
-01-dic-2019 01:50:33 PM:Pasajero36 deja la maleta Pasajero36-M2 en la cinta.
-01-dic-2019 01:50:33 PM:Empleado2 deja la maleta Pasajero1-M2 en el avión.
-01-dic-2019 01:50:34 PM:Empleado1 deja la maleta Pasajero39-M2 en el avión.
-01-dic-2019 01:50:34 PM:Empleado2 coge la maleta Pasajero7-M2 y la lleva al avión.
-01-dic-2019 01:50:35 PM:Empleado1 coge la maleta Pasajero24-M2 y la lleva al avión.
-01-dic-2019 01:50:35 PM:Empleado2 deja la maleta Pasajero7-M2 en el avión.
-01-dic-2019 01:50:36 PM:Empleado1 deja la maleta Pasajero24-M2 en el avión.
-01-dic-2019 01:50:36 PM:Empleado2 coge la maleta Pasajero12-M2 y la lleva al avión.
-01-dic-2019 01:50:36 PM:Empleado1 coge la maleta Pasajero29-M2 y la lleva al avión.
-01-dic-2019 01:50:37 PM:Empleado2 deja la maleta Pasajero12-M2 en el avión.
-01-dic-2019 01:50:38 PM:Empleado1 deja la maleta Pasajero29-M2 en el avión.
-01-dic-2019 01:50:38 PM:Empleado1 coge la maleta Pasajero10-M2 y la lleva al avión.
-01-dic-2019 01:50:38 PM:Empleado2 coge la maleta Pasajero3-M2 y la lleva al avión.
-01-dic-2019 01:50:39 PM:Empleado2 deja la maleta Pasajero3-M2 en el avión.
-01-dic-2019 01:50:39 PM:Empleado1 deja la maleta Pasajero10-M2 en el avión.
-01-dic-2019 01:50:40 PM:Empleado1 coge la maleta Pasajero11-M2 y la lleva al avión.
-01-dic-2019 01:50:40 PM:Empleado2 coge la maleta Pasajero36-M2 y la lleva al avión.
-01-dic-2019 01:50:40 PM:Empleado2 deja la maleta Pasajero36-M2 en el avión.
-01-dic-2019 01:50:41 PM:Empleado1 deja la maleta Pasajero11-M2 en el avión.
-01-dic-2019 01:50:41 PM:Cierre del aeropuerto
+06-dic-2019 08:50:18 PM:Apertura del aeropuerto
+06-dic-2019 08:50:43 PM:Pasajero16 deja la maleta Pasajero16-M1 en la cinta.
+06-dic-2019 08:50:43 PM:Empleado2 coge la maleta Pasajero16-M1 y la lleva al avión.
+06-dic-2019 08:50:43 PM:Pasajero32 deja la maleta Pasajero32-M1 en la cinta.
+06-dic-2019 08:50:43 PM:Empleado1 coge la maleta Pasajero32-M1 y la lleva al avión.
+06-dic-2019 08:50:43 PM:Pasajero25 deja la maleta Pasajero25-M1 en la cinta.
+06-dic-2019 08:50:43 PM:Pasajero2 deja la maleta Pasajero2-M1 en la cinta.
+06-dic-2019 08:50:43 PM:Pasajero27 deja la maleta Pasajero27-M1 en la cinta.
+06-dic-2019 08:50:43 PM:Pasajero31 deja la maleta Pasajero31-M1 en la cinta.
+06-dic-2019 08:50:43 PM:Pasajero33 deja la maleta Pasajero33-M1 en la cinta.
+06-dic-2019 08:50:43 PM:Pasajero3 deja la maleta Pasajero3-M1 en la cinta.
+06-dic-2019 08:50:43 PM:Pasajero5 deja la maleta Pasajero5-M1 en la cinta.
+06-dic-2019 08:50:43 PM:Pasajero36 deja la maleta Pasajero36-M1 en la cinta.
+06-dic-2019 08:50:44 PM:Empleado1 deja la maleta Pasajero32-M1 en el avión.
+06-dic-2019 08:50:44 PM:Empleado2 deja la maleta Pasajero16-M1 en el avión.
+06-dic-2019 08:50:45 PM:Empleado2 coge la maleta Pasajero25-M1 y la lleva al avión.
+06-dic-2019 08:50:45 PM:Pasajero29 deja la maleta Pasajero29-M1 en la cinta.
+06-dic-2019 08:50:45 PM:Empleado1 coge la maleta Pasajero2-M1 y la lleva al avión.
+06-dic-2019 08:50:45 PM:Pasajero38 deja la maleta Pasajero38-M1 en la cinta.
+06-dic-2019 08:50:46 PM:Empleado1 deja la maleta Pasajero2-M1 en el avión.
+06-dic-2019 08:50:46 PM:Empleado2 deja la maleta Pasajero25-M1 en el avión.
+06-dic-2019 08:50:47 PM:Empleado1 coge la maleta Pasajero27-M1 y la lleva al avión.
+06-dic-2019 08:50:47 PM:Pasajero15 deja la maleta Pasajero15-M1 en la cinta.
+06-dic-2019 08:50:47 PM:Empleado2 coge la maleta Pasajero31-M1 y la lleva al avión.
+06-dic-2019 08:50:47 PM:Pasajero22 deja la maleta Pasajero22-M1 en la cinta.
+06-dic-2019 08:50:47 PM:Empleado1 deja la maleta Pasajero27-M1 en el avión.
+06-dic-2019 08:50:48 PM:Empleado1 coge la maleta Pasajero33-M1 y la lleva al avión.
+06-dic-2019 08:50:48 PM:Pasajero17 deja la maleta Pasajero17-M1 en la cinta.
+06-dic-2019 08:50:49 PM:Empleado2 deja la maleta Pasajero31-M1 en el avión.
+06-dic-2019 08:50:49 PM:Empleado1 deja la maleta Pasajero33-M1 en el avión.
+06-dic-2019 08:50:50 PM:Empleado2 coge la maleta Pasajero3-M1 y la lleva al avión.
+06-dic-2019 08:50:50 PM:Pasajero1 deja la maleta Pasajero1-M1 en la cinta.
+06-dic-2019 08:50:50 PM:Empleado1 coge la maleta Pasajero5-M1 y la lleva al avión.
+06-dic-2019 08:50:50 PM:Pasajero7 deja la maleta Pasajero7-M1 en la cinta.
+06-dic-2019 08:50:51 PM:Empleado2 deja la maleta Pasajero3-M1 en el avión.
+06-dic-2019 08:50:51 PM:Empleado1 deja la maleta Pasajero5-M1 en el avión.
+06-dic-2019 08:50:52 PM:Empleado2 coge la maleta Pasajero36-M1 y la lleva al avión.
+06-dic-2019 08:50:52 PM:Pasajero19 deja la maleta Pasajero19-M1 en la cinta.
+06-dic-2019 08:50:52 PM:Empleado1 coge la maleta Pasajero29-M1 y la lleva al avión.
+06-dic-2019 08:50:52 PM:Pasajero6 deja la maleta Pasajero6-M1 en la cinta.
+06-dic-2019 08:50:52 PM:Empleado2 deja la maleta Pasajero36-M1 en el avión.
+06-dic-2019 08:50:53 PM:Empleado1 deja la maleta Pasajero29-M1 en el avión.
+06-dic-2019 08:50:53 PM:Empleado2 coge la maleta Pasajero38-M1 y la lleva al avión.
+06-dic-2019 08:50:53 PM:Pasajero12 deja la maleta Pasajero12-M1 en la cinta.
+06-dic-2019 08:50:54 PM:Empleado1 coge la maleta Pasajero15-M1 y la lleva al avión.
+06-dic-2019 08:50:54 PM:Pasajero4 deja la maleta Pasajero4-M1 en la cinta.
+06-dic-2019 08:50:54 PM:Empleado2 deja la maleta Pasajero38-M1 en el avión.
+06-dic-2019 08:50:55 PM:Empleado1 deja la maleta Pasajero15-M1 en el avión.
+06-dic-2019 08:50:55 PM:Empleado2 coge la maleta Pasajero22-M1 y la lleva al avión.
+06-dic-2019 08:50:55 PM:Pasajero24 deja la maleta Pasajero24-M1 en la cinta.
+06-dic-2019 08:50:56 PM:Empleado1 coge la maleta Pasajero17-M1 y la lleva al avión.
+06-dic-2019 08:50:56 PM:Pasajero40 deja la maleta Pasajero40-M1 en la cinta.
+06-dic-2019 08:50:56 PM:Empleado1 deja la maleta Pasajero17-M1 en el avión.
+06-dic-2019 08:50:57 PM:Empleado1 coge la maleta Pasajero1-M1 y la lleva al avión.
+06-dic-2019 08:50:57 PM:Pasajero35 deja la maleta Pasajero35-M1 en la cinta.
+06-dic-2019 08:50:57 PM:Empleado1 deja la maleta Pasajero1-M1 en el avión.
+06-dic-2019 08:50:58 PM:Empleado1 coge la maleta Pasajero7-M1 y la lleva al avión.
+06-dic-2019 08:50:58 PM:Pasajero26 deja la maleta Pasajero26-M1 en la cinta.
+06-dic-2019 08:50:59 PM:Empleado1 deja la maleta Pasajero7-M1 en el avión.
+06-dic-2019 08:50:59 PM:Empleado1 coge la maleta Pasajero19-M1 y la lleva al avión.
+06-dic-2019 08:50:59 PM:Pasajero10 deja la maleta Pasajero10-M1 en la cinta.
+06-dic-2019 08:51:00 PM:Empleado1 deja la maleta Pasajero19-M1 en el avión.
+06-dic-2019 08:51:06 PM:Empleado2 deja la maleta Pasajero22-M1 en el avión.
+06-dic-2019 08:51:07 PM:Empleado2 coge la maleta Pasajero6-M1 y la lleva al avión.
+06-dic-2019 08:51:07 PM:Pasajero9 deja la maleta Pasajero9-M1 en la cinta.
+06-dic-2019 08:51:08 PM:Empleado2 deja la maleta Pasajero6-M1 en el avión.
+06-dic-2019 08:51:09 PM:Empleado2 coge la maleta Pasajero12-M1 y la lleva al avión.
+06-dic-2019 08:51:09 PM:Pasajero18 deja la maleta Pasajero18-M1 en la cinta.
+06-dic-2019 08:51:09 PM:Empleado2 deja la maleta Pasajero12-M1 en el avión.
+06-dic-2019 08:51:10 PM:Empleado2 coge la maleta Pasajero4-M1 y la lleva al avión.
+06-dic-2019 08:51:10 PM:Pasajero39 deja la maleta Pasajero39-M1 en la cinta.
+06-dic-2019 08:51:10 PM:Empleado1 coge la maleta Pasajero24-M1 y la lleva al avión.
+06-dic-2019 08:51:10 PM:Pasajero37 deja la maleta Pasajero37-M1 en la cinta.
+06-dic-2019 08:51:10 PM:Empleado2 deja la maleta Pasajero4-M1 en el avión.
+06-dic-2019 08:51:11 PM:Empleado1 deja la maleta Pasajero24-M1 en el avión.
+06-dic-2019 08:51:11 PM:Empleado2 coge la maleta Pasajero40-M1 y la lleva al avión.
+06-dic-2019 08:51:11 PM:Pasajero8 deja la maleta Pasajero8-M1 en la cinta.
+06-dic-2019 08:51:12 PM:Empleado2 deja la maleta Pasajero40-M1 en el avión.
+06-dic-2019 08:51:12 PM:Empleado1 coge la maleta Pasajero35-M1 y la lleva al avión.
+06-dic-2019 08:51:12 PM:Pasajero11 deja la maleta Pasajero11-M1 en la cinta.
+06-dic-2019 08:51:12 PM:Empleado2 coge la maleta Pasajero26-M1 y la lleva al avión.
+06-dic-2019 08:51:12 PM:Pasajero21 deja la maleta Pasajero21-M1 en la cinta.
+06-dic-2019 08:51:13 PM:Empleado1 deja la maleta Pasajero35-M1 en el avión.
+06-dic-2019 08:51:13 PM:Empleado2 deja la maleta Pasajero26-M1 en el avión.
+06-dic-2019 08:51:13 PM:Empleado1 coge la maleta Pasajero10-M1 y la lleva al avión.
+06-dic-2019 08:51:13 PM:Pasajero14 deja la maleta Pasajero14-M1 en la cinta.
+06-dic-2019 08:51:14 PM:Empleado2 coge la maleta Pasajero9-M1 y la lleva al avión.
+06-dic-2019 08:51:14 PM:Pasajero28 deja la maleta Pasajero28-M1 en la cinta.
+06-dic-2019 08:51:14 PM:Empleado1 deja la maleta Pasajero10-M1 en el avión.
+06-dic-2019 08:51:14 PM:Empleado1 coge la maleta Pasajero18-M1 y la lleva al avión.
+06-dic-2019 08:51:14 PM:Pasajero23 deja la maleta Pasajero23-M1 en la cinta.
+06-dic-2019 08:51:15 PM:Empleado2 deja la maleta Pasajero9-M1 en el avión.
+06-dic-2019 08:51:15 PM:Empleado1 deja la maleta Pasajero18-M1 en el avión.
+06-dic-2019 08:51:15 PM:Empleado2 coge la maleta Pasajero39-M1 y la lleva al avión.
+06-dic-2019 08:51:15 PM:Pasajero34 deja la maleta Pasajero34-M1 en la cinta.
+06-dic-2019 08:51:16 PM:Empleado1 coge la maleta Pasajero37-M1 y la lleva al avión.
+06-dic-2019 08:51:16 PM:Pasajero20 deja la maleta Pasajero20-M1 en la cinta.
+06-dic-2019 08:51:16 PM:Empleado2 deja la maleta Pasajero39-M1 en el avión.
+06-dic-2019 08:51:16 PM:Empleado1 deja la maleta Pasajero37-M1 en el avión.
+06-dic-2019 08:51:17 PM:Empleado2 coge la maleta Pasajero8-M1 y la lleva al avión.
+06-dic-2019 08:51:17 PM:Pasajero13 deja la maleta Pasajero13-M1 en la cinta.
+06-dic-2019 08:51:17 PM:Empleado1 coge la maleta Pasajero11-M1 y la lleva al avión.
+06-dic-2019 08:51:17 PM:Pasajero30 deja la maleta Pasajero30-M1 en la cinta.
+06-dic-2019 08:51:17 PM:Empleado2 deja la maleta Pasajero8-M1 en el avión.
+06-dic-2019 08:51:17 PM:Empleado1 deja la maleta Pasajero11-M1 en el avión.
+06-dic-2019 08:51:18 PM:Empleado2 coge la maleta Pasajero21-M1 y la lleva al avión.
+06-dic-2019 08:51:18 PM:Pasajero25 deja la maleta Pasajero25-M2 en la cinta.
+06-dic-2019 08:51:18 PM:Empleado2 deja la maleta Pasajero21-M1 en el avión.
+06-dic-2019 08:51:18 PM:Empleado1 coge la maleta Pasajero14-M1 y la lleva al avión.
+06-dic-2019 08:51:18 PM:Pasajero31 deja la maleta Pasajero31-M2 en la cinta.
+06-dic-2019 08:51:19 PM:Empleado2 coge la maleta Pasajero28-M1 y la lleva al avión.
+06-dic-2019 08:51:19 PM:Pasajero16 deja la maleta Pasajero16-M2 en la cinta.
+06-dic-2019 08:51:19 PM:Empleado2 deja la maleta Pasajero28-M1 en el avión.
+06-dic-2019 08:51:19 PM:Empleado1 deja la maleta Pasajero14-M1 en el avión.
+06-dic-2019 08:51:20 PM:Empleado2 coge la maleta Pasajero23-M1 y la lleva al avión.
+06-dic-2019 08:51:20 PM:Pasajero3 deja la maleta Pasajero3-M2 en la cinta.
+06-dic-2019 08:51:20 PM:Empleado1 coge la maleta Pasajero34-M1 y la lleva al avión.
+06-dic-2019 08:51:20 PM:Pasajero2 deja la maleta Pasajero2-M2 en la cinta.
+06-dic-2019 08:51:21 PM:Empleado2 deja la maleta Pasajero23-M1 en el avión.
+06-dic-2019 08:51:21 PM:Empleado1 deja la maleta Pasajero34-M1 en el avión.
+06-dic-2019 08:51:22 PM:Empleado2 coge la maleta Pasajero20-M1 y la lleva al avión.
+06-dic-2019 08:51:22 PM:Pasajero5 deja la maleta Pasajero5-M2 en la cinta.
+06-dic-2019 08:51:22 PM:Empleado1 coge la maleta Pasajero13-M1 y la lleva al avión.
+06-dic-2019 08:51:22 PM:Pasajero33 deja la maleta Pasajero33-M2 en la cinta.
+06-dic-2019 08:51:23 PM:Empleado2 deja la maleta Pasajero20-M1 en el avión.
+06-dic-2019 08:51:23 PM:Empleado1 deja la maleta Pasajero13-M1 en el avión.
+06-dic-2019 08:51:24 PM:Empleado2 coge la maleta Pasajero30-M1 y la lleva al avión.
+06-dic-2019 08:51:24 PM:Pasajero32 deja la maleta Pasajero32-M2 en la cinta.
+06-dic-2019 08:51:24 PM:Empleado1 coge la maleta Pasajero25-M2 y la lleva al avión.
+06-dic-2019 08:51:24 PM:Pasajero27 deja la maleta Pasajero27-M2 en la cinta.
+06-dic-2019 08:51:24 PM:Empleado2 deja la maleta Pasajero30-M1 en el avión.
+06-dic-2019 08:51:25 PM:Empleado2 coge la maleta Pasajero31-M2 y la lleva al avión.
+06-dic-2019 08:51:25 PM:Pasajero36 deja la maleta Pasajero36-M2 en la cinta.
+06-dic-2019 08:51:25 PM:Empleado1 deja la maleta Pasajero25-M2 en el avión.
+06-dic-2019 08:51:26 PM:Empleado1 coge la maleta Pasajero16-M2 y la lleva al avión.
+06-dic-2019 08:51:26 PM:Pasajero38 deja la maleta Pasajero38-M2 en la cinta.
+06-dic-2019 08:51:26 PM:Empleado2 deja la maleta Pasajero31-M2 en el avión.
+06-dic-2019 08:51:27 PM:Empleado2 coge la maleta Pasajero3-M2 y la lleva al avión.
+06-dic-2019 08:51:27 PM:Pasajero29 deja la maleta Pasajero29-M2 en la cinta.
+06-dic-2019 08:51:27 PM:Empleado1 deja la maleta Pasajero16-M2 en el avión.
+06-dic-2019 08:51:28 PM:Empleado2 deja la maleta Pasajero3-M2 en el avión.
+06-dic-2019 08:51:28 PM:Empleado1 coge la maleta Pasajero2-M2 y la lleva al avión.
+06-dic-2019 08:51:28 PM:Pasajero15 deja la maleta Pasajero15-M2 en la cinta.
+06-dic-2019 08:51:28 PM:Empleado2 coge la maleta Pasajero5-M2 y la lleva al avión.
+06-dic-2019 08:51:28 PM:Pasajero22 deja la maleta Pasajero22-M2 en la cinta.
+06-dic-2019 08:51:29 PM:Empleado1 deja la maleta Pasajero2-M2 en el avión.
+06-dic-2019 08:51:29 PM:Empleado2 deja la maleta Pasajero5-M2 en el avión.
+06-dic-2019 08:51:30 PM:Empleado1 coge la maleta Pasajero33-M2 y la lleva al avión.
+06-dic-2019 08:51:30 PM:Pasajero17 deja la maleta Pasajero17-M2 en la cinta.
+06-dic-2019 08:51:30 PM:Empleado2 coge la maleta Pasajero32-M2 y la lleva al avión.
+06-dic-2019 08:51:30 PM:Pasajero1 deja la maleta Pasajero1-M2 en la cinta.
+06-dic-2019 08:51:31 PM:Empleado2 deja la maleta Pasajero32-M2 en el avión.
+06-dic-2019 08:51:31 PM:Empleado1 deja la maleta Pasajero33-M2 en el avión.
+06-dic-2019 08:51:31 PM:Empleado2 coge la maleta Pasajero27-M2 y la lleva al avión.
+06-dic-2019 08:51:31 PM:Pasajero7 deja la maleta Pasajero7-M2 en la cinta.
+06-dic-2019 08:51:31 PM:Empleado1 coge la maleta Pasajero36-M2 y la lleva al avión.
+06-dic-2019 08:51:31 PM:Pasajero19 deja la maleta Pasajero19-M2 en la cinta.
+06-dic-2019 08:51:32 PM:Empleado1 deja la maleta Pasajero36-M2 en el avión.
+06-dic-2019 08:51:32 PM:Empleado2 deja la maleta Pasajero27-M2 en el avión.
+06-dic-2019 08:51:33 PM:Empleado1 coge la maleta Pasajero38-M2 y la lleva al avión.
+06-dic-2019 08:51:33 PM:Pasajero6 deja la maleta Pasajero6-M2 en la cinta.
+06-dic-2019 08:51:33 PM:Empleado2 coge la maleta Pasajero29-M2 y la lleva al avión.
+06-dic-2019 08:51:33 PM:Pasajero12 deja la maleta Pasajero12-M2 en la cinta.
+06-dic-2019 08:51:34 PM:Empleado1 deja la maleta Pasajero38-M2 en el avión.
+06-dic-2019 08:51:34 PM:Empleado2 deja la maleta Pasajero29-M2 en el avión.
+06-dic-2019 08:51:34 PM:Empleado1 coge la maleta Pasajero15-M2 y la lleva al avión.
+06-dic-2019 08:51:34 PM:Pasajero4 deja la maleta Pasajero4-M2 en la cinta.
+06-dic-2019 08:51:34 PM:Empleado2 coge la maleta Pasajero22-M2 y la lleva al avión.
+06-dic-2019 08:51:34 PM:Pasajero24 deja la maleta Pasajero24-M2 en la cinta.
+06-dic-2019 08:51:35 PM:Empleado2 deja la maleta Pasajero22-M2 en el avión.
+06-dic-2019 08:51:35 PM:Empleado1 deja la maleta Pasajero15-M2 en el avión.
+06-dic-2019 08:51:36 PM:Empleado1 coge la maleta Pasajero17-M2 y la lleva al avión.
+06-dic-2019 08:51:36 PM:Pasajero40 deja la maleta Pasajero40-M2 en la cinta.
+06-dic-2019 08:51:36 PM:Empleado2 coge la maleta Pasajero1-M2 y la lleva al avión.
+06-dic-2019 08:51:36 PM:Pasajero35 deja la maleta Pasajero35-M2 en la cinta.
+06-dic-2019 08:51:36 PM:Empleado2 deja la maleta Pasajero1-M2 en el avión.
+06-dic-2019 08:51:37 PM:Empleado1 deja la maleta Pasajero17-M2 en el avión.
+06-dic-2019 08:51:37 PM:Empleado2 coge la maleta Pasajero7-M2 y la lleva al avión.
+06-dic-2019 08:51:37 PM:Pasajero26 deja la maleta Pasajero26-M2 en la cinta.
+06-dic-2019 08:51:38 PM:Empleado1 coge la maleta Pasajero19-M2 y la lleva al avión.
+06-dic-2019 08:51:38 PM:Pasajero10 deja la maleta Pasajero10-M2 en la cinta.
+06-dic-2019 08:51:38 PM:Empleado2 deja la maleta Pasajero7-M2 en el avión.
+06-dic-2019 08:51:39 PM:Empleado1 deja la maleta Pasajero19-M2 en el avión.
+06-dic-2019 08:51:39 PM:Empleado2 coge la maleta Pasajero6-M2 y la lleva al avión.
+06-dic-2019 08:51:39 PM:Pasajero9 deja la maleta Pasajero9-M2 en la cinta.
+06-dic-2019 08:51:39 PM:Empleado2 deja la maleta Pasajero6-M2 en el avión.
+06-dic-2019 08:51:40 PM:Empleado1 coge la maleta Pasajero12-M2 y la lleva al avión.
+06-dic-2019 08:51:40 PM:Pasajero18 deja la maleta Pasajero18-M2 en la cinta.
+06-dic-2019 08:51:40 PM:Empleado2 coge la maleta Pasajero4-M2 y la lleva al avión.
+06-dic-2019 08:51:40 PM:Pasajero39 deja la maleta Pasajero39-M2 en la cinta.
+06-dic-2019 08:51:40 PM:Empleado1 deja la maleta Pasajero12-M2 en el avión.
+06-dic-2019 08:51:41 PM:Empleado2 deja la maleta Pasajero4-M2 en el avión.
+06-dic-2019 08:51:41 PM:Empleado1 coge la maleta Pasajero24-M2 y la lleva al avión.
+06-dic-2019 08:51:41 PM:Pasajero37 deja la maleta Pasajero37-M2 en la cinta.
+06-dic-2019 08:51:42 PM:Empleado2 coge la maleta Pasajero40-M2 y la lleva al avión.
+06-dic-2019 08:51:42 PM:Pasajero8 deja la maleta Pasajero8-M2 en la cinta.
+06-dic-2019 08:51:42 PM:Empleado2 deja la maleta Pasajero40-M2 en el avión.
+06-dic-2019 08:51:42 PM:Empleado1 deja la maleta Pasajero24-M2 en el avión.
+06-dic-2019 08:51:43 PM:Empleado2 coge la maleta Pasajero35-M2 y la lleva al avión.
+06-dic-2019 08:51:43 PM:Pasajero11 deja la maleta Pasajero11-M2 en la cinta.
+06-dic-2019 08:51:43 PM:Empleado1 coge la maleta Pasajero26-M2 y la lleva al avión.
+06-dic-2019 08:51:43 PM:Pasajero21 deja la maleta Pasajero21-M2 en la cinta.
+06-dic-2019 08:51:44 PM:Empleado2 deja la maleta Pasajero35-M2 en el avión.
+06-dic-2019 08:51:44 PM:Empleado1 deja la maleta Pasajero26-M2 en el avión.
+06-dic-2019 08:51:44 PM:Empleado2 coge la maleta Pasajero10-M2 y la lleva al avión.
+06-dic-2019 08:51:44 PM:Pasajero14 deja la maleta Pasajero14-M2 en la cinta.
+06-dic-2019 08:51:45 PM:Empleado1 coge la maleta Pasajero9-M2 y la lleva al avión.
+06-dic-2019 08:51:45 PM:Pasajero28 deja la maleta Pasajero28-M2 en la cinta.
+06-dic-2019 08:51:45 PM:Empleado2 deja la maleta Pasajero10-M2 en el avión.
+06-dic-2019 08:51:46 PM:Empleado2 coge la maleta Pasajero18-M2 y la lleva al avión.
+06-dic-2019 08:51:46 PM:Pasajero23 deja la maleta Pasajero23-M2 en la cinta.
+06-dic-2019 08:51:46 PM:Empleado1 deja la maleta Pasajero9-M2 en el avión.
+06-dic-2019 08:51:46 PM:Empleado2 deja la maleta Pasajero18-M2 en el avión.
+06-dic-2019 08:51:47 PM:Empleado2 coge la maleta Pasajero39-M2 y la lleva al avión.
+06-dic-2019 08:51:47 PM:Pasajero34 deja la maleta Pasajero34-M2 en la cinta.
+06-dic-2019 08:51:47 PM:Empleado1 coge la maleta Pasajero37-M2 y la lleva al avión.
+06-dic-2019 08:51:47 PM:Pasajero20 deja la maleta Pasajero20-M2 en la cinta.
+06-dic-2019 08:51:47 PM:Empleado2 deja la maleta Pasajero39-M2 en el avión.
+06-dic-2019 08:51:47 PM:Empleado1 deja la maleta Pasajero37-M2 en el avión.
+06-dic-2019 08:51:48 PM:Empleado2 coge la maleta Pasajero8-M2 y la lleva al avión.
+06-dic-2019 08:51:48 PM:Pasajero13 deja la maleta Pasajero13-M2 en la cinta.
+06-dic-2019 08:51:48 PM:Empleado2 deja la maleta Pasajero8-M2 en el avión.
+06-dic-2019 08:51:48 PM:Empleado1 coge la maleta Pasajero11-M2 y la lleva al avión.
+06-dic-2019 08:51:48 PM:Pasajero30 deja la maleta Pasajero30-M2 en la cinta.
+06-dic-2019 08:51:49 PM:Empleado2 coge la maleta Pasajero21-M2 y la lleva al avión.
+06-dic-2019 08:51:49 PM:Empleado1 deja la maleta Pasajero11-M2 en el avión.
+06-dic-2019 08:51:50 PM:Empleado2 deja la maleta Pasajero21-M2 en el avión.
+06-dic-2019 08:51:50 PM:Empleado1 coge la maleta Pasajero14-M2 y la lleva al avión.
+06-dic-2019 08:51:50 PM:Empleado2 coge la maleta Pasajero28-M2 y la lleva al avión.
+06-dic-2019 08:51:51 PM:Empleado1 deja la maleta Pasajero14-M2 en el avión.
+06-dic-2019 08:51:51 PM:Empleado2 deja la maleta Pasajero28-M2 en el avión.
+06-dic-2019 08:51:52 PM:Empleado1 coge la maleta Pasajero23-M2 y la lleva al avión.
+06-dic-2019 08:51:52 PM:Empleado2 coge la maleta Pasajero34-M2 y la lleva al avión.
+06-dic-2019 08:51:52 PM:Empleado1 deja la maleta Pasajero23-M2 en el avión.
+06-dic-2019 08:51:53 PM:Empleado2 deja la maleta Pasajero34-M2 en el avión.
+06-dic-2019 08:51:53 PM:Empleado2 coge la maleta Pasajero20-M2 y la lleva al avión.
+06-dic-2019 08:51:53 PM:Empleado1 coge la maleta Pasajero13-M2 y la lleva al avión.
+06-dic-2019 08:51:54 PM:Empleado1 deja la maleta Pasajero13-M2 en el avión.
+06-dic-2019 08:51:54 PM:Empleado2 deja la maleta Pasajero20-M2 en el avión.
+06-dic-2019 08:51:54 PM:Empleado2 coge la maleta Pasajero30-M2 y la lleva al avión.
+06-dic-2019 08:51:54 PM:Cierre del aeropuerto

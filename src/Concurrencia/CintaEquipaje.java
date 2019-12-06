@@ -95,13 +95,8 @@ public class CintaEquipaje {
         String contenido;
         contenido = "";
         
-        if (!maletas.isEmpty()){
-            for (int i=0; i<maletas.size(); i++){
-                contenido = contenido + " " + maletas.get(i).getIdentificador();
-                if (pos != 1 && pos<8){
-                    contenido = contenido + ",";
-                }
-            }
+        for (int i=0; i<maletas.size(); i++){
+            contenido = contenido + " " + maletas.get(i).getIdentificador();
         }
         return contenido;
     }

@@ -5,7 +5,7 @@
  */
 package InterfazGrafica;
 
-import Concurrencia.Paso;
+import Concurrencia.*;
 /**
  *
  * @author lafuente
@@ -13,24 +13,33 @@ import Concurrencia.Paso;
 public class Principal extends javax.swing.JFrame {
     
     private Paso paso;
+    private Avion avion;
+    private CintaEquipaje cinta;
     private boolean botonPulsado1 = false;
     private boolean botonPulsado2 = false;
     private boolean botonPulsado = false;
     /**
      * Creates new form Principal
      */
-    public Principal(Paso paso) {
+    public Principal(Paso paso, Avion avion, CintaEquipaje cinta) {
         initComponents();
         this.setTitle("Aeropuerto");
         this.setVisible(true);
         this.paso = paso;
+        this.cinta = cinta;
+        this.avion = avion;
     }
 
     public void contenidoCinta(String contenido){
-        jTextField1.setText(contenido);
-    }
+        String cont;   
+        cont = cinta.contenidoCinta();
+        jTextField1.setText(cont);   
+    }    
+    
     public void contenidoAvion(String contenido){
-        jTextField4.setText(contenido);
+        String cont;   
+        cont = avion.contenidoAvion();
+        jTextField4.setText(cont);
     }
     public void contenidoEmpleado1(String contenido){
         jTextField2.setText(contenido);

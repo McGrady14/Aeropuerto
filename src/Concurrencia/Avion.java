@@ -44,10 +44,8 @@ public class Avion {
     public String contenidoAvion(){
         String contenido;
         contenido = "";
-        if (!maletas.isEmpty()){
-            for (int i=0; i<maletas.size(); i++){
-            contenido = contenido + " " + maletas.get(i).getIdentificador() + ",";
-            }
+        for (int i=0; i<maletas.size(); i++){
+        contenido = contenido + " " + maletas.get(i).getIdentificador() + ",";
         }
         return contenido;
     }

@@ -73,6 +73,7 @@ public class Pasajero extends Thread{
                 sleep((int)(500+500*Math.random()));
             } catch(InterruptedException e){  }
             cinta.dejarMaleta(maleta, identificador);
+            ventana.contenidoCinta(cinta.contenidoCinta());
             
         }
     }

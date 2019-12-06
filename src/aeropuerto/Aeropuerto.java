@@ -14,6 +14,13 @@ import java.io.PrintWriter;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import InterfazGrafica.Principal;
+import java.rmi.Naming;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+
+import Distribuida.Contenido;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 /**
  *
  * @author lafuente
@@ -39,7 +46,21 @@ public class Aeropuerto {
             CintaEquipaje cinta = new CintaEquipaje(8, salida);
             Avion avion = new Avion(salida);
             Paso paso = new Paso();
-            Principal ventana = new Principal(paso);
+            Principal ventana = new Principal(paso, avion, cinta);
+            
+            System.out.println("Servidor iniciado");
+            try{
+                Contenido contenido = new Contenido();
+                contenido.setAvion(avion);
+                contenido.setCinta(cinta);
+                Registry registry = LocateRegistry.createRegistry(1099);
+                Naming.rebind("//127.0.0.1/Contenido" , contenido);
+            }catch (Exception e){
+                System.out.println("Error: "+ e);
+            }
+            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+            System.out.println("Inicio: ");
+            reader.readLine();
             // Pasajeros
             Pasajero pasajero;
             ArrayList<Pasajero> pasajeros = new ArrayList<>();
@@ -75,7 +96,7 @@ public class Aeropuerto {
             boolean terminado = false;
             do{
                 System.out.print("");
-                if(avion.getMaletas().size() == numPasajeros * 2){
+                if(cinta.getMaletas().size() == 0){
                     terminado = true;
                   }
                 if (terminado == true){
