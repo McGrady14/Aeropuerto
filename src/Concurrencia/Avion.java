@@ -1,7 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * Esta clase representa el avion dentro del aeropuerto.
+ * Se encarga de mantener los objetos maleta dentro del avion 
+ * a medida que van saliendo de la cinta.
  */
 package Concurrencia;
 
@@ -10,24 +10,34 @@ import java.text.SimpleDateFormat;
 import java.util.concurrent.locks.*;
 import java.util.ArrayList;
 import java.util.*;
-/**
- *
- * @author lafuente
- */
+
 public class Avion {
     
+    // Array para guardar las maletas
     private ArrayList<Maleta> maletas;
+    // Semaforo para que las maletas se dejen dentro del avion de una en una
     private Lock cerrojo = new ReentrantLock();
     private PrintWriter salida;
     
+    // Formato de la fecha
     String strDateFormat = "dd-MMM-yyyy hh:mm:ss a:";
     SimpleDateFormat fmt = new SimpleDateFormat(strDateFormat);
     
+   /**
+    * Constructor
+    * 
+    * @param salida 
+    */ 
     public Avion(PrintWriter salida){
         maletas = new ArrayList<>();
         this.salida = salida;
     }
-    
+    /**
+     * Método para dejar la maleta en el avión 
+     * 
+     * @param maleta
+     * @param empleado 
+     */
     public void dejarMaleta(Maleta maleta, String empleado){
         cerrojo.lock();
         try{
@@ -41,6 +51,11 @@ public class Avion {
             cerrojo.unlock();
         }
     }
+    /**
+     * Método para imprimir el contenido del avion en la interfaz gráfica.
+     * 
+     * @return String
+     */
     public String contenidoAvion(){
         String contenido;
         contenido = "";
@@ -49,6 +64,10 @@ public class Avion {
         }
         return contenido;
     }
+    /**
+     * Método para escribir en el log 
+     * @param mensaje 
+     */
     public void logging (String mensaje){
         salida.write(mensaje + "\n");
     }

@@ -1,7 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * Clase con los metodos necesarios para poder parar y reanudar los hilos empleados.
  */
 package Concurrencia;
 
@@ -9,16 +7,21 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-/**
- *
- * @author lafuente
- */
+
 public class Paso {
+    // Array para ver si los hilos estan parado o no 
+    // False = no parado
+    // True = parado
     private boolean[] cerrado = new boolean[]{false,false};
-    private boolean todosCerrados = false;
+    // Semáforo para controlar la integridad del array para controlar la ejecución de los hilos
     private Lock cerrojo = new ReentrantLock();
     private Condition parar = cerrojo.newCondition();
     
+    /**
+     * Método para ver si se ha pulsado el botóm para parar al empleado.
+     * 
+     * @param empleado 
+     */
     public void mirar(int empleado)
     {
         try
@@ -38,6 +41,11 @@ public class Paso {
         }
     }
     
+    /**
+     * Método para reanudar el hilo del empleado concreto.
+     * 
+     * @param empleado 
+     */
     public void abrir(int empleado)
     {
         try
@@ -51,7 +59,11 @@ public class Paso {
             cerrojo.unlock();
         }
     }
-    
+    /**
+     * Método para parar a un empleado concreto.
+     * 
+     * @param empleado 
+     */
     public void cerrar(int empleado)
     {
         try
@@ -59,54 +71,6 @@ public class Paso {
             cerrojo.lock();
             cerrado[empleado]=true;
             System.out.println("Empleado " + empleado + " parado");
-        }
-        finally
-        {
-            cerrojo.unlock();
-        }
-    }
-    
-    
-    // Pausar/Reanudar todos
-    public void mirarTodos()
-    {
-        try
-        {
-            cerrojo.lock();
-            while(todosCerrados)
-            {
-                try
-                {
-                    parar.await();
-                } catch(InterruptedException ie){ }
-            }
-        }
-        finally
-        {
-            cerrojo.unlock();
-        }
-    }
-    public void abrirTodos()
-    {
-        try
-        {
-            cerrojo.lock();
-            todosCerrados=false;
-            parar.signalAll();
-        }
-        finally
-        {
-            cerrojo.unlock();
-        }
-    }
-    
-    public void cerrarTodos()
-    {
-        try
-        {
-            cerrojo.lock();
-            todosCerrados=true;
-            System.out.println("Todos parados");
         }
         finally
         {

@@ -1,12 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * Clase principal. Inicia el funcionamiento del aeropuerto.
+ * Es la clase servidor (RMI).
+ * 
  */
 package aeropuerto;
 
 import java.util.ArrayList;
 import Concurrencia.*;
+import Concurrencia.Avion;
+import Concurrencia.CintaEquipaje;
+import Concurrencia.Empleado;
+import Concurrencia.Pasajero;
+import Concurrencia.Paso;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -21,10 +26,7 @@ import java.rmi.registry.Registry;
 import Distribuida.Contenido;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-/**
- *
- * @author lafuente
- */
+
 public class Aeropuerto {
 
     /**
@@ -35,6 +37,7 @@ public class Aeropuerto {
         int numPasajeros = 40;
         
         try {
+            // Formato de la fecha para el log
             String strDateFormat = "dd-MMM-yyyy hh:mm:ss a:";
             SimpleDateFormat fmt = new SimpleDateFormat(strDateFormat);
             
@@ -48,6 +51,8 @@ public class Aeropuerto {
             Paso paso = new Paso();
             Principal ventana = new Principal(paso, avion, cinta);
             
+            // Iniciamos el servicio que va a ofrecer el servidor
+            // Subimos al registro el objeto contenido
             System.out.println("Servidor iniciado");
             try{
                 Contenido contenido = new Contenido();
@@ -58,21 +63,19 @@ public class Aeropuerto {
             }catch (Exception e){
                 System.out.println("Error: "+ e);
             }
-            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-            System.out.println("Inicio: ");
-            reader.readLine();
+            // Empleados
+            Empleado empleado1 = new Empleado("1", cinta, avion, ventana, paso);
+            Empleado empleado2 = new Empleado("2", cinta, avion, ventana, paso);
             // Pasajeros
             Pasajero pasajero;
             ArrayList<Pasajero> pasajeros = new ArrayList<>();
             for (int i=0; i<numPasajeros; i++){
-                pasajero = new Pasajero(String.valueOf(i+1), cinta, ventana);
+                pasajero = new Pasajero(String.valueOf(i+1), cinta);
                 pasajeros.add(pasajero);
             }
             
             
-            // Empleados
-            Empleado empleado1 = new Empleado("1", cinta, avion, ventana, paso);
-            Empleado empleado2 = new Empleado("2", cinta, avion, ventana, paso);
+            
 
             // Iniciamos el funcionamiento
             salida.write("----------- Simulacion del funcionamiento de un aeropuerto ----------\n");
@@ -106,7 +109,7 @@ public class Aeropuerto {
                   System.out.print("Cierre del aeropuerto\n");
                 }
             }while (terminado == false);
-            // Cerramos el stream
+            // Cerramos el stream del log
             salida.close();
         } catch (IOException ioe) {
             System.out.println("Error IO: " + ioe.toString());

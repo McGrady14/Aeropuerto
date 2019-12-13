@@ -1,7 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * Clase que representa a los pasajeros que acuden al aeropuerto.
+ * Esta clase hereda de la clase Thread.
  */
 package Concurrencia;
 
@@ -9,23 +8,21 @@ import InterfazGrafica.Principal;
 
 
 import java.util.ArrayList;
-/**
- *
- * @author lafuente
- */
+
 public class Pasajero extends Thread{
-    
+    // Numero de maletas de cada pasajero
     private static final int numMaletas = 2;
+    // Nombre identificativo de cada pasajero
     private String identificador;
+    // Variable para guardar el objeto del avion creado en el main
     private CintaEquipaje cinta;
+    // Array de maletas que guarda las maletas que se introducen a la cinta de equipaje.
     private ArrayList<Maleta> maletas;
-    private Principal ventana;
     
-    public Pasajero(String id, CintaEquipaje cinta, Principal ventana){
+    public Pasajero(String id, CintaEquipaje cinta){
         identificador = "Pasajero" + id;
         this.cinta = cinta;
         this.maletas = new ArrayList<>();
-        this.ventana = ventana;
     }
     public Pasajero(String id, CintaEquipaje cinta, ArrayList<Maleta> maletas){
         identificador = "Pasajero" +id;
@@ -33,6 +30,23 @@ public class Pasajero extends Thread{
         this.maletas = maletas;
     }
 
+    /**
+     * Método de inicializacion de los hilos pasajero.
+     * 
+     */
+    @Override
+    public void run(){
+        Maleta maleta;
+        for (int i=0; i<numMaletas; i++){
+            maleta = new Maleta(identificador + "-M" + String.valueOf(i+1));
+            try
+            {
+                sleep((int)(500+500*Math.random()));
+            } catch(InterruptedException e){  }
+            cinta.dejarMaleta(maleta, identificador);            
+        }
+    }
+    // Getters y Setters 
     public CintaEquipaje getCinta() {
         return cinta;
     }
@@ -63,18 +77,4 @@ public class Pasajero extends Thread{
     }
     
     
-    @Override
-    public void run(){
-        Maleta maleta;
-        for (int i=0; i<numMaletas; i++){
-            maleta = new Maleta(identificador + "-M" + String.valueOf(i+1));
-            try
-            {
-                sleep((int)(500+500*Math.random()));
-            } catch(InterruptedException e){  }
-            cinta.dejarMaleta(maleta, identificador);
-            ventana.contenidoCinta(cinta.contenidoCinta());
-            
-        }
-    }
 }

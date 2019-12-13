@@ -1,7 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * Esta clase representa la cinta de equipaje donde los pasajeros dejan sus maletas.
+ * 
  */
 package Concurrencia;
 
@@ -14,20 +13,21 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Date;
 import java.text.SimpleDateFormat;
-/**
- *
- * @author lafuente
- */
+
 public class CintaEquipaje {
     
+    // Máximo de maletas que caben en la cinta
     private int max;
+    // Array de maletas que guarda las maletas que se introducen a la cinta de equipaje
     private ArrayList<Maleta> maletas;
+    // Stream para escribir el log
     private PrintWriter salida;
     private int pos = 0;
     
+    // Formato de la fecha para ponerla en el log
     String strDateFormat = "dd-MMM-yyyy hh:mm:ss a:";
     SimpleDateFormat fmt = new SimpleDateFormat(strDateFormat);
-    
+    // Semaforo para mantener la integridad del arraylist de maletas (recurso compartido)
     Lock cerrojo = new ReentrantLock();
     Condition llena = cerrojo.newCondition();
     Condition vacia = cerrojo.newCondition();
@@ -51,7 +51,12 @@ public class CintaEquipaje {
         this.maletas = maletas;
     }
 
-    
+    /**
+     * Método para dejar la maleta en la cinta de maletas
+     * 
+     * @param maleta
+     * @param pasajero 
+     */
     public void dejarMaleta(Maleta maleta, String pasajero){
         cerrojo.lock();
         try{
@@ -70,6 +75,12 @@ public class CintaEquipaje {
             cerrojo.unlock();
         }
     }
+    /**
+     * Método para extraer una maleta de la cinta de equipaje.
+     * 
+     * @param empleado
+     * @return 
+     */
     public Maleta cogerMaleta(String empleado){
         Maleta maleta = null;
         cerrojo.lock();
@@ -91,16 +102,30 @@ public class CintaEquipaje {
         return maleta;
     }
     
+    /**
+     * Método para escribir el contenido de la cinta de equipaje en la intefaz gráfica.
+     * 
+     * @return String
+     */
     public String contenidoCinta(){
         String contenido;
         contenido = "";
         
-        for (int i=0; i<maletas.size(); i++){
-            contenido = contenido + " " + maletas.get(i).getIdentificador();
+        if (!maletas.isEmpty()){
+            for (int i=0; i<maletas.size(); i++){
+                contenido = contenido + " " + maletas.get(i).getIdentificador();
+                if (pos != 1 && pos<8){
+                    contenido = contenido + ",";
+                }
+            }
         }
         return contenido;
     }
     
+    /**
+     * Método para escribir en el log.
+     * @param mensaje 
+     */
     public void logging (String mensaje){
         
         //Metodo para escribir en el log

@@ -1,16 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * Clase que representa las maletas de los pasajeros.
+ * 
  */
 package Concurrencia;
 
-/**
- *
- * @author lafuente
- */
+
 public class Maleta {
-    
+    // Nombre del identificador de la maleta
     private String identificador;
     
     public Maleta(String id){
