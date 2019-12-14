@@ -15,14 +15,14 @@ public class Visualizacion extends javax.swing.JFrame {
     /**
      * Método para  imprimir el contenido de la cinta en el jTextField correspondiente.
      * 
-     * @param contenido 
+     * @param contenido String Contenido de la cinta de equipaje
      */
     public void contenidoCinta(String contenido){
         jTextArea1.setText(contenido);
     }
     /**
      * Método para imprimir el contenido del avión en el jTextField correspondiente.
-     * @param contenido 
+     * @param contenido String Contenido del avión
      */
     public void contenidoAvion(String contenido){
         jTextArea2.setText(contenido);

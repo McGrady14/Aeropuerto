@@ -23,7 +23,8 @@ public class Contenido extends UnicastRemoteObject implements InterfazContenido{
     /**
      * Método que implementa uno de los servicios expuestos en la interfaz compartida.
      * Retorna el contenido del avión.
-     * @return
+     * 
+     * @return String Contenido del avión.
      * @throws RemoteException 
      */
     @Override
@@ -35,7 +36,8 @@ public class Contenido extends UnicastRemoteObject implements InterfazContenido{
     /**
      * Método que implementa uno de los servicios expuesto en la interfaz compartida.
      * Retorna el contenido de la cinta de equipaje.
-     * @return String
+     * 
+     * @return String Contenido de la cinta de equipaje
      * @throws RemoteException 
      */
     @Override

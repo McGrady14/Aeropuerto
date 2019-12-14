@@ -15,7 +15,7 @@ public class Avion {
     
     // Array para guardar las maletas
     private ArrayList<Maleta> maletas;
-    // Semaforo para que las maletas se dejen dentro del avion de una en una
+    // Cerrojo para que las maletas se dejen dentro del avion de una en una
     private Lock cerrojo = new ReentrantLock();
     private PrintWriter salida;
     
@@ -35,8 +35,8 @@ public class Avion {
     /**
      * Método para dejar la maleta en el avión 
      * 
-     * @param maleta
-     * @param empleado 
+     * @param maleta Objeto malera a dejar en el avión
+     * @param empleado Un string con el identificativo del empleado
      */
     public void dejarMaleta(Maleta maleta, String empleado){
         cerrojo.lock();
@@ -54,7 +54,7 @@ public class Avion {
     /**
      * Método para imprimir el contenido del avion en la interfaz gráfica.
      * 
-     * @return String
+     * @return String Contenido del avión
      */
     public String contenidoAvion(){
         String contenido;

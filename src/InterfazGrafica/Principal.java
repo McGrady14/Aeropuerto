@@ -13,7 +13,9 @@ public class Principal extends javax.swing.JFrame {
     // Variables para saber si los botones para parar y reanudar los hilos 
     // de los empleados han sido pulsado
     private boolean botonPulsado1 = false;
+    // Boton para el empleado 2
     private boolean botonPulsado2 = false;
+    // Botón para ambos empleados
     private boolean botonPulsado = false;
     
     // Constructor 
@@ -26,7 +28,7 @@ public class Principal extends javax.swing.JFrame {
     /**
      * Método para imprimir el contenido de la cinta en el jTextArea correspondiente.
      * 
-     * @param contenido 
+     * @param contenido String Contenido de la cinta de equipaje
      */
     public void contenidoCinta(String contenido){
         jTextArea1.setText(contenido);
@@ -34,7 +36,7 @@ public class Principal extends javax.swing.JFrame {
     /**
      * Método para imprimir el contenido del avión en el jTextArea correspondiente.
      * 
-     * @param contenido 
+     * @param contenido String Contenido del avión
      */
     public void contenidoAvion(String contenido){
         jTextArea2.setText(contenido);
@@ -42,7 +44,7 @@ public class Principal extends javax.swing.JFrame {
     /**
      * Método para imprimir el estado del empleado 1 en el jTextField correspondiente.
      * 
-     * @param contenido 
+     * @param contenido String estado del empleado 1
      */
     public void contenidoEmpleado1(String contenido){
         jTextField2.setText(contenido);
@@ -50,7 +52,7 @@ public class Principal extends javax.swing.JFrame {
     /**
      * Método para imprimir el estado del empleado 2 en el jTextField correspondiente.
      * 
-     * @param contenido 
+     * @param contenido String Estado de la cinta de equipaje
      */
     public void contenidoEmpleado2(String contenido){
         jTextField3.setText(contenido);

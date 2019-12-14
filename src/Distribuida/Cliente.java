@@ -26,7 +26,7 @@ public class Cliente {
            }
            while(true){
                try{
-                   // Utilizamos el servicio 
+                   // Utilizamos el servicio
                     ventana.contenidoCinta(cont.contenidoCinta());
                     ventana.contenidoAvion(cont.contenidoAvion());
                 }catch (Exception e){

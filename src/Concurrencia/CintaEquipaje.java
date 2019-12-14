@@ -27,8 +27,11 @@ public class CintaEquipaje {
     // Formato de la fecha para ponerla en el log
     String strDateFormat = "dd-MMM-yyyy hh:mm:ss a:";
     SimpleDateFormat fmt = new SimpleDateFormat(strDateFormat);
-    // Semaforo para mantener la integridad del arraylist de maletas (recurso compartido)
+    // Cerrojo para mantener la integridad del arraylist de maletas (recurso compartido)
     Lock cerrojo = new ReentrantLock();
+    // Condiciones para que no se puedan introducir mas de 8 maletas en la cinta
+    // Y poder avisar a los pasajeros y a los empleado cuando pueden seguir con su
+    // funcionamiento
     Condition llena = cerrojo.newCondition();
     Condition vacia = cerrojo.newCondition();
 
@@ -54,8 +57,8 @@ public class CintaEquipaje {
     /**
      * Método para dejar la maleta en la cinta de maletas
      * 
-     * @param maleta
-     * @param pasajero 
+     * @param maleta Objeto malera a dejar en la cinta
+     * @param pasajero Un string con el identificativo del pasajero
      */
     public void dejarMaleta(Maleta maleta, String pasajero){
         cerrojo.lock();
@@ -79,7 +82,7 @@ public class CintaEquipaje {
      * Método para extraer una maleta de la cinta de equipaje.
      * 
      * @param empleado
-     * @return 
+     * @return Maleta Maleta que ha sido extraida de la cinta
      */
     public Maleta cogerMaleta(String empleado){
         Maleta maleta = null;
@@ -105,7 +108,7 @@ public class CintaEquipaje {
     /**
      * Método para escribir el contenido de la cinta de equipaje en la intefaz gráfica.
      * 
-     * @return String
+     * @return String Contenido de la cinta
      */
     public String contenidoCinta(){
         String contenido;
@@ -124,7 +127,7 @@ public class CintaEquipaje {
     
     /**
      * Método para escribir en el log.
-     * @param mensaje 
+     * @param mensaje Nueva entrada en el log
      */
     public void logging (String mensaje){
         

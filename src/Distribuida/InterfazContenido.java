@@ -13,14 +13,14 @@ public interface InterfazContenido extends Remote{
     /**
      * Método para devolver el contenido de la cinta de equipaje.
      * 
-     * @return String
+     * @return String String Contenido de la cinta de equipaje
      * @throws RemoteException 
      */
     String contenidoCinta() throws RemoteException;
     /**
      * Método para devolver el contenido del avión.
      * 
-     * @return String
+     * @return String String Contenido del avión
      * @throws RemoteException 
      */
     String contenidoAvion() throws RemoteException;
